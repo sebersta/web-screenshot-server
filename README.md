@@ -1,5 +1,5 @@
 # Web Screenshot Server
-Periodically capture screenshots of a webpage and serve them through a web service. It supports varies resolutions, rotation, scaling and grayscale.
+Periodically capture screenshots of a webpage and serve them through a web service. It supports various resolutions, rotation, zooming, and grayscale.
 
 ## Installation
 ### docker-compose
@@ -43,8 +43,8 @@ This project is designed to be work with a jailbroken Kindle and [Online Screens
 The Web Screenshot Server captures screenshots and makes them available for download on the Kindle. The Online Screensaver, running on the Kindle, fetches these images and uses them as the Screensaver.
 
 ### Instructions
-- Set `RESOLITION` to match the exact physical resolution of your specific Kindle model. For instance, the Kindle Voyage has a resolution of `1488x1072`.
+- Set `RESOLUTION` to match the exact physical resolution of your specific Kindle model. For instance, the Kindle Voyage has a resolution of `1488x1072`.
 - Set `GRAYSCALE` to `True`.
 - For landscape usage, set `ROTATION` to either -90 or 90.
 - To use it with landscape, set `ROTATION` to `-90` or `90`.
-- Set `ZOOM` to your perference.
+- Set `ZOOM` to your preference.

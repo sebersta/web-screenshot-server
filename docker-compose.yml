@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web-screenshot-server:
-    build: .
+    image: sebersta/web-screenshot-server:latest
     ports:
       - 5000:5000
     environment:
