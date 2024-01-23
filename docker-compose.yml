@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web-screenshot-server:
+    build: .
+    ports:
+      - 5000:5000
+    environment:
+      - URL=https://example.com
+      - RESOLUTION=1488x1072 # HorizontalxVertical
+      - ROTATION=-90         # Rotate anticlockwise
+      - ZOOM=200%           
+      - GRAYSCALE=True
+      - WAIT_TIME=2          # Wait until the website fully loaded, in seconds
+      - UPDATE_INTERVAL=30   # In seconds
+    restart: unless-stopped
