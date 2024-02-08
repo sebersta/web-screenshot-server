@@ -4,6 +4,8 @@ Periodically capture screenshots of a webpage and serve them through a web servi
 ## Installation
 ### docker-compose
 A docker-compose.yml file is available as an example. It must be edited to match your needs. You probably want to adjust the port mapping and environment variables.
+
+> *Note:* If you are running it on macOS, you have to disable Airplay Receiver in Settings.
 ```
 version: '3.8'
 
@@ -39,7 +41,7 @@ docker-compose up -d
 ```
 
 ## Integration with Kindle
-This project is designed to be work with a jailbroken Kindle and [Online Screensaver](https://www.mobileread.com/forums/showthread.php?t=236104).
+Web Screenshot Server is designed to be work with a jailbroken Kindle and [Online Screensaver](https://www.mobileread.com/forums/showthread.php?t=236104).
 The Web Screenshot Server captures screenshots and makes them available for download on the Kindle. The Online Screensaver, running on the Kindle, fetches these images and uses them as the Screensaver.
 
 ### Instructions
