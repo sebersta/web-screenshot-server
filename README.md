@@ -36,7 +36,6 @@ services:
 Then lauch the container:
 
 ```
-cd /path/to/docker-compose.yml/
 docker-compose up -d
 ```
 
